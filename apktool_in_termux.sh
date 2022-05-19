@@ -35,6 +35,8 @@ case $s in
 	echo -e "\n\e[3;32mapktool se instalo correctamente ;)"
 	echo -e "\nregresando al menu."
 	sleep 2
+        cd $HOME 
+        cd apktool_termux
 	bash apktool_in_termux.sh
 	else
 	echo -e "\n\e[3;31mapktool no se instalo :("
@@ -48,6 +50,8 @@ case $s in
 	rm -rf installjava
 	echo -e "\nregresando al menu."
 	sleep 2
+        cd $HOME
+        cd apktool_termux
 	bash apktool_in_termux.sh
 	;;
 	99)
